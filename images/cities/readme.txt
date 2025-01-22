@@ -1,0 +1,11 @@
+Place the following city images in this directory:
+- mumbai.jpg
+- delhi.jpg
+- bangalore.jpg
+- hyderabad.jpg
+- chennai.jpg
+- kolkata.jpg
+- jaipur.jpg
+- ahmedabad.jpg
+- pune.jpg
+- agra.jpg

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ticket Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">Ticket Booking</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#cities">Cities</a></li>
+            <li><a href="#help">Help</a></li>
+            <li><a href="php/login.php">Sign In</a></li>
+            <li><a href="php/signup.php">Sign Up</a></li>
+            <li><a href="php/admin.html">Admin Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Online Ticket Booking</h1>
+            <p>Book your tickets easily and securely</p>
+        </div>
+    </section>
+    
+    <style>
+        .hero {
+            background: url('images/cities/1234.avif') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+    
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5); /* Adds transparency for better text readability */
+            padding: 2rem;
+            border-radius: 10px;
+        }
+    
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+    
+        .hero p {
+            font-size: 1.2rem;
+        }
+    </style>
+    
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Our Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Easy Booking</h3>
+                <p>Book your tickets in just a few clicks</p>
+            </div>
+            <div class="feature-card">
+                <h3>Secure Payments</h3>
+                <p>Safe and secure payment options</p>
+            </div>
+            <div class="feature-card">
+                <h3>24/7 Support</h3>
+                <p>Round the clock customer support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cities Section -->
+    <section id="cities" class="cities-section">
+        <h2>travel with us</h2>
+        <div class="cities-container">
+            <button class="scroll-btn scroll-left" id="scrollLeft">
+                <i class="arrow left"></i>
+            </button>
+            <div class="cities-scroll">
+                <div class="cities-wrapper">
+                    <div class="city-card">
+                        <img src="images/cities/mumbai.jpg" alt="Mumbai">
+                        <div class="city-info">
+                            <h3>Mumbai</h3>
+                            <p>The City of Dreams</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/delhi.jpg" alt="Delhi">
+                        <div class="city-info">
+                            <h3>Delhi</h3>
+                            <p>The Heart of India</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/bangalore.jpg" alt="Bangalore">
+                        <div class="city-info">
+                            <h3>Bangalore</h3>
+                            <p>Silicon Valley of India</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/hyderabad.jpg" alt="Hyderabad">
+                        <div class="city-info">
+                            <h3>Hyderabad</h3>
+                            <p>City of Pearls</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/chennai.jpg" alt="Chennai">
+                        <div class="city-info">
+                            <h3>Chennai</h3>
+                            <p>Gateway of South India</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/kolkata.png" alt="Kolkata">
+                        <div class="city-info">
+                            <h3>Kolkata</h3>
+                            <p>City of Joy</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/jaipur.jpg" alt="Jaipur">
+                        <div class="city-info">
+                            <h3>Jaipur</h3>
+                            <p>Pink City</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/ahmedabad.jpg" alt="Ahmedabad">
+                        <div class="city-info">
+                            <h3>Ahmedabad</h3>
+                            <p>Manchester of India</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/pune.jpg" alt="Pune">
+                        <div class="city-info">
+                            <h3>Pune</h3>
+                            <p>Oxford of the East</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="images/cities/agra.jpg" alt="Agra">
+                        <div class="city-info">
+                            <h3>Agra</h3>
+                            <p>City of Taj</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="scroll-btn scroll-right" id="scrollRight">
+                <i class="arrow right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Help Section -->
+    <section id="help" class="help-section">
+        <h2>Need Help?</h2>
+        <div class="help-content">
+            <div class="help-grid">
+                <div class="help-card">
+                    <h3>FAQs</h3>
+                    <p>Find answers to commonly asked questions</p>
+                    <a href="#" class="btn">View FAQs</a>
+                </div>
+                <div class="help-card">
+                    <h3>Contact Support</h3>
+                    <p>Get in touch with our support team</p>
+                    <a href="#" class="btn">Contact Us</a>
+                </div>
+                <div class="help-card">
+                    <h3>User Guide</h3>
+                    <p>Learn how to use our platform</p>
+                    <a href="#" class="btn">Read Guide</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Online Ticket Booking. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
